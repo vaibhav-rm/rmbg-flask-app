@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/' + 'styles.css') }}">
+<title>Upload new File</title>
+</head>
+<body>
+    <div class="dropContainer" id="dropContainer">
+    <div class="center">
+        <div class="form">
+            <h1>Upload new File</h1>
+            <form id="uploadForm" method=post enctype=multipart/form-data>
+                <input type=file name=file id="fileInput" />
+                <input type=submit value=Upload />
+            </form>
+            <div id="dropArea" class="drop-area">Drag & Drop files here</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="{{ url_for('static', filename='js/' + 'script.js') }}"></script>
+</html>

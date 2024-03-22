@@ -1,0 +1,11 @@
+<!doctype html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/' + 'styles.css') }}">
+<title>Upload new File</title>
+</head>
+<body>
+<h1>See new File</h1>
+<div class="bg-removed">
+<img class="bg" src="{{ url_for('static', filename='/' + file) }}" />
+</div>
+</body>
