@@ -1,4 +1,4 @@
-# Rembg Flask App
+# Rmbg Flask App
 
 This is a simple Flask web application that removes the background from images using the Rembg library.
 
@@ -14,7 +14,7 @@ This is a simple Flask web application that removes the background from images u
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your_username/rembg-flask-app.git
+    git clone https://github.com/vaibhav-rm/rmbg-flask-app.git
     ```
 
 2. Install the required Python packages:
@@ -30,7 +30,7 @@ This is a simple Flask web application that removes the background from images u
 1. Navigate to the project directory:
 
     ```bash
-    cd rembg-flask-app
+    cd rmbg-flask-app
     ```
 
 2. Run the Flask app:
@@ -54,13 +54,13 @@ You can also run the application using Docker.
 1. Build the Docker image:
 
     ```bash
-    docker build -t rembg-flask-app .
+    docker build -t rmbg-flask-app .
     ```
 
 2. Run the Docker container:
 
     ```bash
-    docker run -p 5000:5000 rembg-flask-app
+    docker run -p 5000:5000 rmbg-flask-app
     ```
 
 3. Open your web browser and go to `http://localhost:5000` to access the application.
